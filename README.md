@@ -1,62 +1,51 @@
-🌐 MEDIQUE – The Smart & Interactive Hospital Finder
-📖 Detailed Project Description
+🏥 MEDIQUE – Smart & Interactive Hospital Finder
+📖 Project Overview
 
-MEDIQUE is a cutting-edge mobile application built to revolutionize how people discover and access healthcare services. Developed with React Native and Expo, MEDIQUE delivers a smooth, cross-platform experience with real-time map interactions, intelligent search, and engaging UI/UX design.
+MEDIQUE is an intelligent, user-friendly mobile application designed to make finding hospitals faster, easier, and more reliable. With real-time location detection, smart search, and an interactive map, MEDIQUE helps users quickly locate nearby hospitals, check waiting times, and get instant directions — all within a clean and visually appealing interface.
 
-This app is more than a hospital locator — it is a personal health navigation tool that empowers users to make fast, informed decisions about where to seek care.
+✨ Core Features
 
-🏥 Key Features
-
-📍 Nearby Hospitals: Automatically detects the user’s location and shows hospitals in multiple categories (General, Emergency, Dental, Pediatric) with distances.
-
-⏳ Real-Time Wait Times: Displays estimated queue times so users can choose the fastest option.
-
-🔍 Smart Search: Users can type in any city, district, or landmark and see the map animate to the searched location instantly.
-
-🗺️ Interactive Map: Built with react-native-maps and integrates OpenStreetMap (Nominatim API) for accurate results.
-
-🧭 One-Tap Directions: Opens Google Maps or the default navigation app for immediate routing.
-
-🎨 Beautiful UI: Sleek design with icons, rounded buttons, Poppins typography, and a user-friendly layout.
-
-📡 Always Connected: Built-in social media links (Facebook, Twitter, LinkedIn) and contact details.
+✅ Nearby Hospitals – Detects your location and lists hospitals by category: General, Emergency, Dental, Pediatric
+✅ Real-Time Wait Times – Know the estimated waiting time before you go
+✅ Smart Search – Search by district, city, or landmark and instantly jump to that location on the map
+✅ Interactive Map – Powered by OpenStreetMap, with animated navigation to selected hospitals
+✅ One-Tap Directions – Open Google Maps or your default navigation app with a single tap
+✅ Modern UI/UX – Beautiful typography, icons, and smooth transitions for a polished experience
+✅ Contact & Social Media Links – Stay connected through email, phone, and social platforms
 
 🛠 Tech Stack
 
 Frontend:
 
-⚛️ React Native – Cross-platform mobile app framework
+⚛️ React Native – Cross-platform development (iOS + Android)
 
-🎨 Tailwind CSS (NativeWind) – Utility-first styling for clean and responsive UI
+🎨 NativeWind (Tailwind CSS for React Native) – Responsive, utility-first styling
 
-🗺️ react-native-maps – Interactive maps with markers
+🗺 react-native-maps – Interactive map rendering
 
-📦 Expo – Streamlined development and deployment
+📦 Expo – Fast development, preview, and deployment
 
-Backend & APIs:
+APIs & Backend:
 
-🌍 Nominatim OpenStreetMap API – Location search and geocoding
+🌍 Nominatim (OpenStreetMap API) – Free geolocation and search service
 
-📡 (Optional Future) Node.js / Express – For real-time hospital wait-time updates
+🌐 (Future) Node.js + Express – Real-time updates for hospital wait times
 
-State Management & Utilities:
+Other Tools & Libraries:
 
 🔄 React Hooks (useState, useRef) – Efficient state handling
 
-🧭 Expo Router – Smooth navigation between screens
+🧭 Expo Router – Simple navigation between screens
 
-Other Tools:
+🧰 ESLint + TypeScript – Code consistency and type safety
 
-🧰 ESLint + TypeScript – Code quality and type safety
+🌟 Why MEDIQUE is Unique
 
-📱 Expo Go – Live preview and testing
+💡 Interactive & Intuitive – Beautiful, icon-rich design that’s easy for anyone to use
+⚡ Fast & Lightweight – Quick loading and smooth map interaction, even on budget phones
+🌐 Cross-Platform – One codebase for both Android and iOS
+🚀 Future-Ready – Scalable for more features like user accounts, notifications, and live hospital data
 
-🌟 Why MEDIQUE Stands Out
+📌 Elevator Pitch
 
-🧩 Interactive & User-Centric Design – Smooth animations, meaningful icons, and responsive layouts.
-
-⚡ Performance-Oriented – Fast load times, works well on low-end devices.
-
-🌐 Cross-Platform – One codebase for both iOS & Android.
-
-🛡️ Future-Ready – Can easily integrate real-time hospital data, user accounts, and notifications.
+MEDIQUE is your personal health navigator. It helps you find the nearest hospital, check wait times, and get instant directions — making healthcare more accessible, fast, and stress-free.
