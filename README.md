@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+🌐 MEDIQUE – The Smart & Interactive Hospital Finder
+📖 Detailed Project Description
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+MEDIQUE is a cutting-edge mobile application built to revolutionize how people discover and access healthcare services. Developed with React Native and Expo, MEDIQUE delivers a smooth, cross-platform experience with real-time map interactions, intelligent search, and engaging UI/UX design.
 
-## Get started
+This app is more than a hospital locator — it is a personal health navigation tool that empowers users to make fast, informed decisions about where to seek care.
 
-1. Install dependencies
+🏥 Key Features
 
-   ```bash
-   npm install
-   ```
+📍 Nearby Hospitals: Automatically detects the user’s location and shows hospitals in multiple categories (General, Emergency, Dental, Pediatric) with distances.
 
-2. Start the app
+⏳ Real-Time Wait Times: Displays estimated queue times so users can choose the fastest option.
 
-   ```bash
-   npx expo start
-   ```
+🔍 Smart Search: Users can type in any city, district, or landmark and see the map animate to the searched location instantly.
 
-In the output, you'll find options to open the app in a
+🗺️ Interactive Map: Built with react-native-maps and integrates OpenStreetMap (Nominatim API) for accurate results.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🧭 One-Tap Directions: Opens Google Maps or the default navigation app for immediate routing.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🎨 Beautiful UI: Sleek design with icons, rounded buttons, Poppins typography, and a user-friendly layout.
 
-## Get a fresh project
+📡 Always Connected: Built-in social media links (Facebook, Twitter, LinkedIn) and contact details.
 
-When you're ready, run:
+🛠 Tech Stack
 
-```bash
-npm run reset-project
-```
+Frontend:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+⚛️ React Native – Cross-platform mobile app framework
 
-## Learn more
+🎨 Tailwind CSS (NativeWind) – Utility-first styling for clean and responsive UI
 
-To learn more about developing your project with Expo, look at the following resources:
+🗺️ react-native-maps – Interactive maps with markers
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📦 Expo – Streamlined development and deployment
 
-## Join the community
+Backend & APIs:
 
-Join our community of developers creating universal apps.
+🌍 Nominatim OpenStreetMap API – Location search and geocoding
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📡 (Optional Future) Node.js / Express – For real-time hospital wait-time updates
+
+State Management & Utilities:
+
+🔄 React Hooks (useState, useRef) – Efficient state handling
+
+🧭 Expo Router – Smooth navigation between screens
+
+Other Tools:
+
+🧰 ESLint + TypeScript – Code quality and type safety
+
+📱 Expo Go – Live preview and testing
+
+🌟 Why MEDIQUE Stands Out
+
+🧩 Interactive & User-Centric Design – Smooth animations, meaningful icons, and responsive layouts.
+
+⚡ Performance-Oriented – Fast load times, works well on low-end devices.
+
+🌐 Cross-Platform – One codebase for both iOS & Android.
+
+🛡️ Future-Ready – Can easily integrate real-time hospital data, user accounts, and notifications.
